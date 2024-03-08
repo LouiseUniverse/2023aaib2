@@ -6,7 +6,11 @@ int main()
         printf("a¬O%d\n",a);
         a-=1;
     }
-    for (int b=5; b>0; b=-1){
+    for (int b=5; b>0; b-=1){
         printf("b¬O%d\n",b);
     }
+    for (int i=0; i<5; i+=1){
+        printf("i¬O%d\n",i);
+    }
+
 }
